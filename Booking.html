@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Booking</title>
+    <link type="text/css" rel="stylesheet" href="css/booking.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Train Tickets</div>
+      <nav>
+        <ul class="nav">
+          <li><a href="Booking.html">Ticket Book</a></li>
+          <li><a href="search.html">View/Cancel Tickets</a></li>
+          <li><a href="PrintChart.jsp">Print Occupany</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="center">
+      <h1>Ticket Booking</h1>
+    <form class="booking" action="book" method="get">
+    <div class="text_field">
+    <label for="dept">Departure Station:
+	  </label><br>
+	  <select name="dept" id="dept">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="E">E</option>
+    </select><br><br>
+    <label for="dest">Departure Station:
+	  </label><br>
+
+	  <select name="dest" id="dest">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="E">E</option>
+    </select><br><br>
+    <label for="num">Number of Passengers:
+	  </label><br>
+	  <select name="num" id="num">
+      <option value=1>1</option>
+      <option value=2>2</option>
+      <option value=3>3</option>
+      <option value=4>4</option>
+      <option value=5>5</option>
+      <option value=6>6</option>
+      <option value=7>7</option>
+      <option value=8>8</option>
+    </select>
+
+  </div>
+
+      <input type="submit"  value="Book">
+      <br><br>
+    </form>
+  </div>
+  </body>
+</html>
